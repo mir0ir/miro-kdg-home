@@ -1,0 +1,32 @@
+{
+	"name": "miropolfliet-kdgweb",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "playwright test",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@playwright/test": "^1.25.0",
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"prettier": "^2.6.2",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^3.46.0",
+		"vite": "^4.0.0",
+		"postcss": "^8.4.14",
+		"postcss-load-config": "^4.0.1",
+		"svelte-preprocess": "^4.10.7",
+		"autoprefixer": "^10.4.7",
+		"tailwindcss": "^3.1.5",
+		"@tailwindcss/typography": "^0.5.3",
+		"daisyui": "^2.18.1",
+		"mdsvex": "^0.10.6"
+	},
+	"type": "module"
+}
